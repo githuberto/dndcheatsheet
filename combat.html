@@ -24,6 +24,17 @@
     "It's my turn WTF do I do?!"<br>
       -Everyone, <i>at first</i>
   </h4>
+  <p>
+  This page is designed to quickly help you figure out what to do during. Most turns you will likely just
+  move and take an action, but the table below is a quick reference for all of your options. Below the table,
+  each option is described in more detail.
+  <h2>Initiative</h2>
+  Combat starts with initiative rolls. Each combatant rolls for initiative, which is a <span>d20+Dex Mod</span> roll.
+  Roll20 automatically tracks initiaitve rolls, <i>if you follow these two simple steps:</i>:
+  <ol>
+    <li><b><i>Select your character's token</i></b> (Everyone has forgotten this step at some point, and at some point in the future...)</li>
+    <li>Click on the word "INITIATIVE" at the top of your character sheet's central column.</li>
+  </ol>
   <h2>What can I do on my turn?</h2>
   <p>
   On each turn in combat, you can do each of the following <i>once</i> (in any order):
@@ -31,11 +42,11 @@
     <tbody>
       <tr>
         <td><b>Move</b></th>
-        <td>You can move up to your speed in feet. You can move before, after, or between any actions/bonus actions you take.</th>
+        <td>You can move up to your speed in feet. You can move before, after, or between any action and/or bonus action you take.</th>
       </tr>
       <tr>
         <td><b>Action</b></th>
-        <td>Attack, cast a spell, dash, disengage, dodge, hide, ready, help, use an item</th>
+        <td>Attack, grapple, cast a spell, dash, disengage, dodge, hide, grapple, ready, help, use an item</th>
       </tr>
       <tr>
         <td><b>Bonus Action</b></th>
@@ -48,14 +59,14 @@
     </tbody>
   </table>
   <h3>Movement</h3>
-  You can move up to your speed in feet on your turn. You can intersperse your action and bonus action anywhere during movement, so
-  with a speed of 30, a turn could look like:
+  You can move up to your speed in feet on your turn. Your character's speed is at the top of the middle column of your character sheet.
+  You can intersperse your action and bonus action anywhere during movement, so with a speed of 30, a turn could look like:
   <ol>
-    <li><i>"I move 10 feet."</i></li>
+    <li><i>"I move ten feet."</i></li>
     <li><i>"I attack the goblin with my shortsword as my action."</i></li>
-    <li><i>"I 5 more feet.</i></li>
+    <li><i>"I five more feet.</i></li>
     <li><i>"I cast <a href="https://roll20.net/compendium/dnd5e/Misty%20Step#content">Misty Step</a> as my bonus action (provided I know the spell).</i></li>
-    <li><i>"I move my remaining 15 feet.</i></li>
+    <li><i>"I move my remaining fifteen feet.</i></li>
   </ol>
   <h3>Actions</h3>
   <p>
@@ -90,6 +101,17 @@
         and you are no longer hidden to them.</td>
       </tr>
       <tr>
+        <td><b>Grapple</b></td>
+        <td>
+          You attempt to wrestle a target. You make an Athetlics check opposed by the target's Atheltics or Acrobatics
+          check. If your Athetlics exceeds the target's opposing check, they are now grappled. This reduces their speed
+          to 0, meaning they cannot move <i>(but can still attack and cast spells)</i>. The grappled target can spend its
+          action to attempt to break free.
+          (Note: this is actually a special form of melee attack, meaning if you have Extra Attack, you can still use
+          the additional attacks.)
+        </td>
+      </tr>
+      <tr>
         <td><b>Ready</b></td>
         <td>You ready an action to be taken using your reaciton when certain conditions are met. See <b>Trigger a readied action</b> below.
         You can choose not to take the readied action when its conditions are met, but if the action is a spell that requires a spell slot, the slot is consumed.</td>
@@ -98,31 +120,42 @@
         <td><b>Use an Item</b></td>
         <td>You use an item, such as a <a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Healing#content">Healing Potion</a> or a <a href="https://roll20.net/compendium/dnd5e/Spell%20Scroll#content">Spell Scroll</a>.</td>
       </tr>
-      <tr>
-        <td><b>Dash</b></td>
-        <td></td>
-      </tr>
     </tbody>
   </table>
   </p>
 
   <h2>What can I do when it isn't my turn?</h2>
   <p>
-  When it isn't your turn, you can take a reaction. You get one reaction per round (one inbetween each of your turns). Common
-  examples are:
-  <h3>Opportunity attack</h3>
-  When an enemy moves away from your reach <i>and you're wielding a melee weapon,</i> you
-  can use your reation to perform an opportunity attack. This is a normal melee attack (just one, even if you have Extra Attack).
-  <h3>Cast a reaction spell</h3>
-  If a spell's description defines it as a reaction, such as <a href="https://www.dndbeyond.com/spells/shield">Shield</a> and
-  <a href="https://www.dndbeyond.com/spells/counterspell">Counterspell</a>, you can cast it using your reaction as described
-  in the spell.
-  <h3>Trigger a readied action</h3>
-  Sometimes, you will want to spend the action on your turn (or before combat starts) readying an action. This would sound like
-  "I draw my bow and get ready to fire at the first goblin I see" or "I ready a Magic Missile for the first person who attacks."
-  When the condition you described is met, you can (but don't have to) use your reaction to perform the action.
-
-
+  When it isn't your turn, you can use your reaction if the situation permits.
+  You get <i>just one</i> reaction per round (one between each of your turns).
+  Common examples are:
+  <table>
+    <tbody>
+      <tr>
+        <td>Make an opportunity attack</td>
+        <td>
+          When an enemy moves away from your reach <i>and you're wielding a melee weapon,</i> you
+          can use your reation to perform an opportunity attack. This is a normal melee attack (just one, even if you have Extra Attack).
+        </td>
+      </tr>
+      <tr>
+        <td>Cast a reaction spell</td>
+        <td>
+          If a spell's description defines it as a reaction, such as <a href="https://www.dndbeyond.com/spells/shield">Shield</a> and
+          <a href="https://www.dndbeyond.com/spells/counterspell">Counterspell</a>, you can cast it using your reaction as described
+          in the spell.
+        </td>
+      </tr>
+      <tr>
+        <td>Trigger a readied action</td>
+        <td>
+          Sometimes, you will want to spend the action on your turn (or before combat starts) readying an action. This would sound like
+          "I draw my bow and get ready to fire at the first goblin I see" or "I ready a Magic Missile for the first person who attacks."
+          When the condition you described is met, you can (but don't have to) use your reaction to perform the action.
+        </td>
+      </tr>
+    </tbody>
+  </table>
   </p>
 </div>
 </body>

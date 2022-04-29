@@ -53,6 +53,10 @@ td {
   padding: 8px;
 }
 
+td:first-child {
+  font-weight: bold;
+}
+
 .hidden_table {
   border: 0px;
   margin: 0 100px 0 0;
