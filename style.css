@@ -1,0 +1,172 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: rgb(68, 68, 68);
+  font-style: normal;
+  text-transform: none;
+  background: #7F290D;
+  background: -moz-linear-gradient(top, #7F290D 0%, #C12D14 51%, #969696 100%);
+  background: -webkit-linear-gradient(top, #7F290D 0%, #C12D14 51%, #969696 100%);
+  background: linear-gradient(to bottom, #7F290D 0%, #C12D14 51%, #969696 100%);
+  background-attachment: fixed; /* make gradient fill entire page */
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-variant: small-caps;
+}
+
+span {
+  font-family: "Consolas";
+  display: inline;
+  font-weight: bold;
+  margin: 0;
+  background: #CCCED1;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+thead {
+  background: #CCCED1;
+}
+
+th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.hidden_table {
+  border: 0px;
+  margin: 0 100px 0 0;
+}
+.hidden_table th {
+  border: none;
+  padding: 8px;
+}
+
+.hidden_table td {
+  border: none;
+  padding: 8px;
+}
+
+#navbar {
+  width: 80%;
+  margin: 2% 10% 0;
+  padding: 0;
+  background: #D1D4D6;
+  overflow: hidden;
+}
+
+#navbar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  height: auto;
+}
+
+#navbar li {
+  float: left;
+  padding: 5px;
+  height: auto;
+  margin: 0;
+}
+
+#navbar a {
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  height: auto;
+}
+
+#navbar a:hover {
+  font-weight: bold;
+  background: #CCCFD1;
+}
+
+.home_body {
+  background: #D1D4D6;
+  margin: 10% 10% 15%;
+}
+
+#home_title {
+  padding: 5% 0 0 0;
+}
+
+#intro_container {
+  padding: 0% 10% 5%;
+  display: table;
+  table-layout: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.intro_link {
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.intro_link div {
+  border: solid;
+  text-align: center;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  background-color: #9e9e9e;
+  margin: 1%;
+  padding: .5%;
+  width: auto;
+}
+
+.intro_link div:hover {
+  box-shadow: 0 0 0 2px #000000;
+  font-weight: bold;
+}
+
+.info_body {
+  margin: 1% 10% 10%;
+  background: #E9ECEF;
+  padding: 3%;
+}
+
+.glossary_entry {
+  background: #DBDEE0;
+  padding: 3px 3px 3px 3px;
+  margin: 10px 0 10px;
+  border: 1px solid black;
+}
+
+.glossary_note {
+  background: #BBD3E0;
+  padding: 2px;
+}
+
+.glossary_roll20 {
+  background: #BBE0D0;
+  padding: 2px;
+}
+
+/* Combat */
+.quote {
+  font-weight: normal;
+  text-align: center;
+}
